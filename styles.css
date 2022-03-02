@@ -1,30 +1,48 @@
 #shuttleBackground {
-    background-color: green;
-    display: inline-block;
-    height: 80%;
-    width: 40%;
-    position: relative;
+  background-color: green;
+  display: inline-block;
+  height: 80%;
+  width: 40%;
+  position: relative;
 }
 
 #flightStatus {
-    color: green;
+  color: green;
 }
 
 #flightDisplay {
-    text-align: center; 
-    height: 400px; 
-    width: 100%;
+  text-align: center;
+  height: 400px;
+  width: 100%;
 }
 
 #spaceShuttleHeight {
-    display: inline-block;
+  display: inline-block;
 }
 
 .center-block {
-    text-align: center; 
-    display: inline-block;
+  text-align: center;
+  display: inline-block;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
+}
+
+/*
+kieran's custome css
+
+#rocket {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 75px;
+  height: 75px;
+  margin-top: -37.5px;
+  margin-left: -37.5px;
+}
+*/
+#rocket {
+  position: relative;
+  text-align: center;
 }
